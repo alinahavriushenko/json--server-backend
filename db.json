@@ -1,33 +1,75 @@
 {
-  "projects": [
+  "books": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "personal_notes": "This book reminds me of the beauty of unexpected love and the importance of not judging too quickly. I always find myself getting lost in the world of Elizabeth Bennet and Mr. Darcy, rooting for their happily ever after.",
+      "img": "pride_and_prejudice.jpg",
+      "genre": "Romance",
+      "mood": ["Happy", "Nostalgic"]
     }
   ],
-  "tasks": [
+  "movies": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
+      "title": "Pride and Prejudice",
+      "year": 1995,
+      "genre": "Romance",
+      "mood": ["Happy", "Nostalgic"],
+      "personal_notes": "Watching this movie feels like revisiting an old friend. The chemistry between Elizabeth and Mr. Darcy never fails to make my heart flutter. It's my go-to movie for cozy nights in.",
+      "img": "pride_and_prejudice_movie.jpg",
+      "watched": "With friends"
+    }
+  ],
+  "coffee": [
     {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
+      "id": 1,
+      "brand": "Starbucks",
+      "origin": "Latin America",
+      "roast": "Medium",
+      "img": "starbucks_coffee.jpg",
+      "personal_notes": "Starting my day with a cup of Starbucks coffee is like a warm hug for my soul. The nutty and chocolatey notes always bring a smile to my face, no matter what the day holds.",
+      "ethical_sourcing": "Yes"
+    }
+  ],
+  "wine": [
     {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "id": 1,
+      "brand": "Château Lafite Rothschild",
+      "year": "2010",
+      "img": "chateau_lafite_rothschild.jpg",
+      "type": "Red",
+      "good_with": "Meat",
+      "occasion": "Anniversary",
+      "personal_notes": "Opening a bottle of Château Lafite Rothschild feels like celebrating life's special moments. The rich flavors and velvety texture elevate any occasion, making it unforgettable."
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Spaghetti Carbonara",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta or guanciale, diced",
+        "2 large eggs",
+        "50g grated Pecorino Romano cheese",
+        "50g grated Parmesan cheese",
+        "2 cloves garlic, minced",
+        "Freshly ground black pepper",
+        "Salt to taste",
+        "Fresh parsley, chopped (for garnish)"
+      ],
+      "instructions": [
+        "Cook spaghetti in a large pot of boiling salted water until al dente. Drain, reserving 1/2 cup of pasta water.",
+        "In a separate pan, cook pancetta or guanciale until crispy. Add minced garlic and cook until fragrant.",
+        "In a bowl, whisk together eggs, Pecorino Romano cheese, and Parmesan cheese. Season with black pepper.",
+        "Add cooked spaghetti to the pan with pancetta/guanciale and garlic. Toss to combine.",
+        "Remove pan from heat and quickly pour in the egg and cheese mixture, stirring vigorously to coat the pasta. If the sauce is too thick, add reserved pasta water gradually to achieve desired consistency.",
+        "Season with salt to taste. Serve immediately, garnished with chopped parsley."
+      ],
+      "source": "Internet",
+      "personal_notes": "Cooking spaghetti carbonara always takes me back to my trip to Italy. The aroma of garlic and crispy pancetta fills my kitchen, transporting me to the streets of Rome. It's my little taste of Italy at home."
     }
   ]
 }
