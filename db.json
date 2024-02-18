@@ -34,7 +34,7 @@
       "mood": ["Happy", "Nostalgic"]
     }, {
       "id": 3,
-      "category_id": 2,
+      "category_id": 3,
       "brand": "Starbucks",
       "origin": "Latin America",
       "roast": "Medium",
