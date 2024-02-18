@@ -2,28 +2,52 @@
   "categories": [
     {
       "id": 1,
-      "name": "books"
-    }, 
+      "name": "books",
+      "fields": ["title", "author", "genre", "mood", "personal_notes"]
+    },
 
     {
       "id": 2,
-      "name": "movies"
-    }, 
+      "name": "movies",
+      "fields": ["title", "year", "genre", "mood", "watched", "personal_notes"]
+    },
     {
       "id": 3,
-      "name": "coffee"
+      "name": "coffee",
+      "fields": [
+        "brand",
+        "origin",
+        "roast",
+        "ethical sourcing",
+        "personal_notes"
+      ]
     },
-     {
+    {
       "id": 4,
-      "name": "wine"
+      "name": "wine",
+      "fields": [
+        "brand",
+        "year",
+        "type",
+        "good_with",
+        "occasion",
+        "personal_notes"
+      ]
     },
-     {
+    {
       "id": 5,
-      "name": "recipes"
+      "name": "recipes",
+      "fields": [
+        "name",
+        "ingredients",
+        "instructions",
+        "source",
+        "personal_notes"
+      ]
     }
   ],
   "items": [
- {
+    {
       "id": 1,
       "category_id": 1,
       "title": "Pride and Prejudice",
@@ -32,7 +56,8 @@
       "img": "pride_and_prejudice.jpg",
       "genre": "Romance",
       "mood": ["Happy", "Nostalgic"]
-    }, {
+    },
+    {
       "id": 3,
       "category_id": 3,
       "brand": "Starbucks",
@@ -78,7 +103,8 @@
       ],
       "source": "Internet",
       "personal_notes": "Cooking spaghetti carbonara always takes me back to my trip to Italy. The aroma of garlic and crispy pancetta fills my kitchen, transporting me to the streets of Rome. It's my little taste of Italy at home."
-    }, {
+    },
+    {
       "id": 1,
       "category_id": 2,
       "title": "Pride and Prejudice",
@@ -88,4 +114,6 @@
       "personal_notes": "Watching this movie feels like revisiting an old friend. The chemistry between Elizabeth and Mr. Darcy never fails to make my heart flutter. It's my go-to movie for cozy nights in.",
       "img": "pride_and_prejudice_movie.jpg",
       "watched": "With friends"
-    }]}
+    }
+  ]
+}
