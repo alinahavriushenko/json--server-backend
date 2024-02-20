@@ -3,19 +3,19 @@
     {
       "id": 1,
       "name": "books",
-      "fields": ["title", "author", "genre", "mood", "personal_notes"]
+      "fields": ["name", "author", "genre", "mood", "personal_notes"]
     },
 
     {
       "id": 2,
       "name": "movies",
-      "fields": ["title", "year", "genre", "mood", "watched", "personal_notes"]
+      "fields": ["name", "year", "genre", "mood", "watched", "personal_notes"]
     },
     {
       "id": 3,
       "name": "coffee",
       "fields": [
-        "brand",
+        "name",
         "origin",
         "roast",
         "ethical sourcing",
@@ -26,7 +26,7 @@
       "id": 4,
       "name": "wine",
       "fields": [
-        "brand",
+        "name",
         "year",
         "type",
         "good_with",
@@ -48,19 +48,19 @@
   ],
   "items": [
     {
-      "id": 1,
-      "category_id": 1,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "personal_notes": "This book reminds me of the beauty of unexpected love and the importance of not judging too quickly. I always find myself getting lost in the world of Elizabeth Bennet and Mr. Darcy, rooting for their happily ever after.",
-      "img": "pride_and_prejudice.jpg",
-      "genre": "Romance",
-      "mood": ["Happy", "Nostalgic"]
-    },
+  "id": 1,
+  "category_id": 1,
+  "name": "Kafka on the Shore",
+  "author": "Haruki Murakami",
+  "personal_notes": "Reading Kafka on the Shore is like entering a dream world where reality and fantasy intertwine.",
+  "img": "kafka_on_the_shore.jpg",
+  "genre": "Magical Realism",
+  "mood": ["Enigmatic"]
+},
     {
-      "id": 3,
+      "id": 2,
       "category_id": 3,
-      "brand": "Starbucks",
+      "name": "Starbucks",
       "origin": "Latin America",
       "roast": "Medium",
       "img": "starbucks_coffee.jpg",
@@ -68,9 +68,9 @@
       "ethical_sourcing": "Yes"
     },
     {
-      "id": 1,
+      "id": 3,
       "category_id": 4,
-      "brand": "Château Lafite Rothschild",
+      "name": "Château Lafite Rothschild",
       "year": "2010",
       "img": "chateau_lafite_rothschild.jpg",
       "type": "Red",
@@ -79,7 +79,7 @@
       "personal_notes": "Opening a bottle of Château Lafite Rothschild feels like celebrating life's special moments. The rich flavors and velvety texture elevate any occasion, making it unforgettable."
     },
     {
-      "id": 1,
+      "id": 4,
       "category_id": 5,
       "name": "Spaghetti Carbonara",
       "ingredients": [
@@ -105,9 +105,9 @@
       "personal_notes": "Cooking spaghetti carbonara always takes me back to my trip to Italy. The aroma of garlic and crispy pancetta fills my kitchen, transporting me to the streets of Rome. It's my little taste of Italy at home."
     },
     {
-      "id": 1,
+      "id": 5,
       "category_id": 2,
-      "title": "Pride and Prejudice",
+      "name": "Pride and Prejudice",
       "year": 1995,
       "genre": "Romance",
       "mood": ["Happy", "Nostalgic"],
