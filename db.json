@@ -80,10 +80,10 @@
  {
       "id": 4,
       "category_id": 3,
-      "name": "Starbucks Espresso Roast",
+      "name": "Starbucks Mocha",
       "origin": "Latin America",
       "roast": "Medium",
-      "img": "https://athome.starbucks.com/sites/default/files/2022-05/CAH_PDP_Espresso_1842x1542_Ground_shadow.png",
+      "img": "https://www.americancoffeeclub.co.uk/cdn/shop/files/StarbucksSaltedCaramelMocha_600x.png?v=1692899421",
       "personal_notes": "The nutty and chocolatey notes",
       "ethical_sourcing": "Yes"
     },
@@ -100,10 +100,10 @@
   {
     "id": 6,
     "category_id": 3,
-    "name": "Altezza",
+    "name": "Octane",
     "origin": "Various",
     "roast": "Dark",
-    "img": "https://www.cafori.com/media/catalog/product/c/w/cw100301_altezza_slow_roast_bonen_1kg-1-editbeans.png",
+    "img": "https://m.media-amazon.com/images/I/51N8H-TKUcL._AC_UF894,1000_QL80_.jpg",
     "personal_notes": "Bold and rich flavor experience with its dark roast. It's my go-to choice for an afternoon pick-me-up.",
     "ethical_sourcing": "Yes"
   },
