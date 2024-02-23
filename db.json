@@ -63,7 +63,7 @@
     "name": "Wuthering Heights",
     "author": "Emily Brontë",
     "personal_notes": "A haunting tale of passion, betrayal, and revenge on the Yorkshire moors.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Wuthering_Heights_title_page.jpg/220px-Wuthering_Heights_title_page.jpg",
+    "img": "https://cdn2.wwnorton.com/wwnproducts/COLLEG/7/9/9780393284997/9780393284997_300.jpeg",
     "genre": "Gothic Fiction",
     "mood": ["Dark", "Romantic"]
   },
@@ -73,7 +73,7 @@
     "name": "1984",
     "author": "George Orwell",
     "personal_notes": "A chilling portrayal of a totalitarian society where every aspect of life is controlled by the state.",
-    "img": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg",
+    "img": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF1000,1000_QL80_.jpg",
     "genre": "Dystopian Fiction",
     "mood": ["Oppressive", "Suspenseful"]
   },
@@ -93,7 +93,7 @@
     "name": "Dallmayr",
     "origin": "Various",
     "roast": "Light",
-    "img": "https://www.cafori.com/media/catalog/product/c/w/cw103606_dallmayr_prodomo-1.png?quality=95&fit=bounds&height=450&width=700&bg-color=FFF",
+    "img": "https://viva-italia.od.ua/image/catalog/products/kofe-v-zernah/dallmayr-prodomo-zern.png",
     "personal_notes": "Light roast and unique flavor profiles. It's perfect for starting a fresh morning.",
     "ethical_sourcing": "Yes"
   },
@@ -103,7 +103,7 @@
     "name": "Altezza",
     "origin": "Various",
     "roast": "Dark",
-    "img": "https://www.cafori.com/media/catalog/product/c/w/cw100301_altezza_slow_roast_bonen_1kg-1-editbeans.png?quality=95&fit=bounds&height=450&width=700&bg-color=FFF",
+    "img": "https://www.cafori.com/media/catalog/product/c/w/cw100301_altezza_slow_roast_bonen_1kg-1-editbeans.png",
     "personal_notes": "Bold and rich flavor experience with its dark roast. It's my go-to choice for an afternoon pick-me-up.",
     "ethical_sourcing": "Yes"
   },
@@ -112,7 +112,7 @@
       "category_id": 4,
       "name": "Côtes du Rhône",
       "year": "2010",
-      "img": "https://www.odyssee-vins.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/1/_/0bce9aa06fcdef37f958723c1044a98c/guigal-cotes-du-rhone-rouge-2020-75cl-www.odyssee-vins.com-ov106530.jpg",
+      "img": "https://avis-vin.lefigaro.fr/var/src/167/41673-bouteille-e-guigal-cotes-du-rhone-rouge--cotes-du-rhone.png",
       "type": "Red",
       "good_with": "Meat",
       "occasion": "Anniversary",
@@ -123,7 +123,7 @@
     "category_id": 4,
     "name": "Opus One",
     "year": "2015",
-    "img": "https://vinotheque-bordeaux.com/331047-large_default/opus-one.jpg",
+    "img": "https://static.cavissima.com/pub/media/catalog/product/cache/21d5b20501320b0a15de21a395cff332/o/p/opus-one-napa-valleyusa-rouge_bouteille_2_1_2.png",
     "type": "Red",
     "good_with": "Steak",
     "occasion": "Fine Dining",
@@ -134,7 +134,7 @@
     "category_id": 4,
     "name": "Dom Pérignon",
     "year": "2008",
-    "img": "https://www.galaxus.ch/im/Files/5/1/0/4/2/5/9/3/image.png?impolicy=ProductTileImage&resizeWidth=358&resizeHeight=358&cropWidth=358&cropHeight=358&resizeType=downsize&quality=high",
+    "img": "https://static.millesima.com/s3/attachements/h1000px/3035_2008_c.png",
     "type": "Champagne",
     "good_with": "Seafood",
     "occasion": "New Year's Eve",
@@ -199,7 +199,7 @@
   {
     "id": 12,
     "category_id": 5,
-    "img": "https://www.yonder.fr/sites/default/files/destinations/%C2%A9%20Pupetta%20Pizza%20FB%20Paris2.jpg",
+    "img": "https://cdn-elle.ladmedia.fr/var/plain_site/storage/images/elle-a-table/fiches-cuisine/tous-les-themes/soiree-pizza/168384-21-fre-FR/Recettes-de-pizzas.jpg",
     "name": "Pizza",
     "ingredients": [
       "Pizza dough",
@@ -250,7 +250,7 @@
     "genre": "Fantasy",
     "mood": "Epic",
     "personal_notes": "Acinematic masterpiece that transports viewers to the enchanting world of Middle-earth. Its epic tale of friendship, bravery, and the battle against darkness captivates audiences with every viewing.",
-    "img": "https://www.yourdecoration.fr/cdn/shop/products/gbeye-fp2658-lord-of-the-rings-fellowship-of-the-ring-poster-61x91-5cm.jpg?v=1698259426",
+    "img": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
     "watched": "With family"
   }
   ]
