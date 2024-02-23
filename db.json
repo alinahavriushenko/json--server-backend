@@ -53,34 +53,97 @@
   "name": "Kafka on the Shore",
   "author": "Haruki Murakami",
   "personal_notes": "Reading Kafka on the Shore is like entering a dream world where reality and fantasy intertwine.",
-  "img": "kafka_on_the_shore.jpg",
+  "img": "https://m.media-amazon.com/images/I/81tdbrewW0L._SY466_.jpg",
   "genre": "Magical Realism",
   "mood": ["Enigmatic"]
 },
-    {
-      "id": 2,
+  {
+    "id": 2,
+    "category_id": 1,
+    "name": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "personal_notes": "A haunting tale of passion, betrayal, and revenge on the Yorkshire moors.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Wuthering_Heights_title_page.jpg/220px-Wuthering_Heights_title_page.jpg",
+    "genre": "Gothic Fiction",
+    "mood": ["Dark", "Romantic"]
+  },
+  {
+    "id": 3,
+    "category_id": 1,
+    "name": "1984",
+    "author": "George Orwell",
+    "personal_notes": "A chilling portrayal of a totalitarian society where every aspect of life is controlled by the state.",
+    "img": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg",
+    "genre": "Dystopian Fiction",
+    "mood": ["Oppressive", "Suspenseful"]
+  },
+ {
+      "id": 4,
       "category_id": 3,
-      "name": "Starbucks",
+      "name": "Starbucks Espresso Roast",
       "origin": "Latin America",
       "roast": "Medium",
-      "img": "starbucks_coffee.jpg",
-      "personal_notes": "Starting my day with a cup of Starbucks coffee is like a warm hug for my soul. The nutty and chocolatey notes always bring a smile to my face, no matter what the day holds.",
+      "img": "https://athome.starbucks.com/sites/default/files/2022-05/CAH_PDP_Espresso_1842x1542_Ground_shadow.png",
+      "personal_notes": "The nutty and chocolatey notes",
       "ethical_sourcing": "Yes"
     },
     {
-      "id": 3,
+    "id": 5,
+    "category_id": 3,
+    "name": "Dallmayr",
+    "origin": "Various",
+    "roast": "Light",
+    "img": "https://www.cafori.com/media/catalog/product/c/w/cw103606_dallmayr_prodomo-1.png?quality=95&fit=bounds&height=450&width=700&bg-color=FFF",
+    "personal_notes": "Light roast and unique flavor profiles. It's perfect for starting a fresh morning.",
+    "ethical_sourcing": "Yes"
+  },
+  {
+    "id": 6,
+    "category_id": 3,
+    "name": "Altezza",
+    "origin": "Various",
+    "roast": "Dark",
+    "img": "https://www.cafori.com/media/catalog/product/c/w/cw100301_altezza_slow_roast_bonen_1kg-1-editbeans.png?quality=95&fit=bounds&height=450&width=700&bg-color=FFF",
+    "personal_notes": "Bold and rich flavor experience with its dark roast. It's my go-to choice for an afternoon pick-me-up.",
+    "ethical_sourcing": "Yes"
+  },
+    {
+      "id": 7,
       "category_id": 4,
-      "name": "Château Lafite Rothschild",
+      "name": "Côtes du Rhône",
       "year": "2010",
-      "img": "chateau_lafite_rothschild.jpg",
+      "img": "https://www.odyssee-vins.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/1/_/0bce9aa06fcdef37f958723c1044a98c/guigal-cotes-du-rhone-rouge-2020-75cl-www.odyssee-vins.com-ov106530.jpg",
       "type": "Red",
       "good_with": "Meat",
       "occasion": "Anniversary",
-      "personal_notes": "Opening a bottle of Château Lafite Rothschild feels like celebrating life's special moments. The rich flavors and velvety texture elevate any occasion, making it unforgettable."
+      "personal_notes": "The rich flavors and velvety texture."
     },
     {
-      "id": 4,
+    "id": 8,
+    "category_id": 4,
+    "name": "Opus One",
+    "year": "2015",
+    "img": "https://vinotheque-bordeaux.com/331047-large_default/opus-one.jpg",
+    "type": "Red",
+    "good_with": "Steak",
+    "occasion": "Fine Dining",
+    "personal_notes": "Its velvety texture and complex layers make it the perfect companion for a luxurious evening."
+  },
+  {
+    "id": 9,
+    "category_id": 4,
+    "name": "Dom Pérignon",
+    "year": "2008",
+    "img": "https://www.galaxus.ch/im/Files/5/1/0/4/2/5/9/3/image.png?impolicy=ProductTileImage&resizeWidth=358&resizeHeight=358&cropWidth=358&cropHeight=358&resizeType=downsize&quality=high",
+    "type": "Champagne",
+    "good_with": "Seafood",
+    "occasion": "New Year's Eve",
+    "personal_notes": "Fine bubbles and crisp taste elevate any moment, especially on New Year's Eve."
+  },
+    {
+      "id": 10,
       "category_id": 5,
+      "img": "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/01/Spaghetti-Carbonara168766.jpg",
       "name": "Spaghetti Carbonara",
       "ingredients": [
         "200g spaghetti",
@@ -105,15 +168,90 @@
       "personal_notes": "Cooking spaghetti carbonara always takes me back to my trip to Italy. The aroma of garlic and crispy pancetta fills my kitchen, transporting me to the streets of Rome. It's my little taste of Italy at home."
     },
     {
-      "id": 5,
+    "id": 11,
+    "category_id": 5,
+    "img": "https://cakesbymk.com/wp-content/uploads/2023/01/Template-Size-for-Blog-Photos-15.jpg",
+    "name": "Chocolate Brownies",
+    "ingredients": [
+      "200g dark chocolate",
+      "150g unsalted butter",
+      "200g granulated sugar",
+      "3 large eggs",
+      "1 tsp vanilla extract",
+      "100g all-purpose flour",
+      "30g cocoa powder",
+      "1/4 tsp salt",
+      "100g chopped nuts (optional)"
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C (350°F) and grease a baking dish.",
+      "Melt the chocolate and butter together in a heatproof bowl over a pot of simmering water.",
+      "Remove from heat and stir in the sugar. Let it cool slightly.",
+      "Add eggs one at a time, mixing well after each addition. Stir in vanilla extract.",
+      "Sift in flour, cocoa powder, and salt. Fold gently until just combined. Add chopped nuts if using.",
+      "Pour the batter into the prepared baking dish and spread evenly.",
+      "Bake for 25-30 minutes or until a toothpick inserted into the center comes out with moist crumbs.",
+      "Allow to cool completely before cutting into squares."
+    ],
+    "source": "Internet",
+    "personal_notes": "Baking chocolate brownies is my go-to recipe for indulgent treats. The rich aroma of chocolate fills my kitchen, and the warm, gooey brownies never fail to satisfy my sweet cravings."
+  },
+  {
+    "id": 12,
+    "category_id": 5,
+    "img": "https://www.yonder.fr/sites/default/files/destinations/%C2%A9%20Pupetta%20Pizza%20FB%20Paris2.jpg",
+    "name": "Pizza",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella cheese",
+      "Toppings of your choice (e.g., pepperoni, mushrooms, bell peppers, onions, olives)"
+    ],
+    "instructions": [
+      "Preheat your oven to the highest temperature (usually around 250°C or 500°F).",
+      "Roll out the pizza dough on a floured surface to your desired thickness.",
+      "Transfer the dough to a baking sheet or pizza stone.",
+      "Spread tomato sauce evenly over the dough, leaving a small border around the edges.",
+      "Sprinkle mozzarella cheese over the sauce.",
+      "Add your favorite toppings generously.",
+      "Bake in the preheated oven for 10-15 minutes or until the crust is golden brown and the cheese is bubbly.",
+      "Slice and serve hot."
+    ],
+    "source": "Internet",
+    "personal_notes": "Making homemade pizza is a fun and customizable meal option for gatherings with friends and family. The aroma of freshly baked pizza wafting through the air always brings everyone together for a memorable evening."
+  },
+    {
+      "id": 13,
       "category_id": 2,
       "name": "Pride and Prejudice",
       "year": 1995,
       "genre": "Romance",
-      "mood": ["Happy", "Nostalgic"],
-      "personal_notes": "Watching this movie feels like revisiting an old friend. The chemistry between Elizabeth and Mr. Darcy never fails to make my heart flutter. It's my go-to movie for cozy nights in.",
-      "img": "pride_and_prejudice_movie.jpg",
-      "watched": "With friends"
-    }
+      "mood": "Happy",
+      "personal_notes": "It's my go-to movie for cozy nights in.",
+      "img": "https://i.pinimg.com/originals/19/d6/67/19d66702b2b00a6362eb2728ab01b67b.jpg",
+      "watched": "Alone"
+    },
+    {
+    "id": 14,
+    "category_id": 2,
+    "name": "Barbie",
+    "year": 2023,
+    "genre": "Animation",
+    "mood": "Magical",
+    "personal_notes": "Girl power",
+    "img": "https://i.ebayimg.com/images/g/Cd0AAOSwocdkoDER/s-l1600.jpg",
+    "watched": "With friends in cinema"
+  },
+  {
+    "id": 15,
+    "category_id": 2,
+    "name": "The Lord of the Rings",
+    "year": 2001,
+    "genre": "Fantasy",
+    "mood": "Epic",
+    "personal_notes": "Acinematic masterpiece that transports viewers to the enchanting world of Middle-earth. Its epic tale of friendship, bravery, and the battle against darkness captivates audiences with every viewing.",
+    "img": "https://www.yourdecoration.fr/cdn/shop/products/gbeye-fp2658-lord-of-the-rings-fellowship-of-the-ring-poster-61x91-5cm.jpg?v=1698259426",
+    "watched": "With family"
+  }
   ]
 }
